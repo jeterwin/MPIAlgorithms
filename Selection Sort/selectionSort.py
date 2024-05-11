@@ -12,7 +12,6 @@ numbersArray = np.random.randint(SPN, BPN, AOGN)
 #numbersArray = np.random.rand(AOGN)
 
 def selectionSort(numbersArray):
-    print(len(numbersArray))
     for i in range(len(numbersArray) - 1):
         min_index = i
         for j in range(i + 1, len(numbersArray)):
